@@ -1,12 +1,31 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+    children:
+      - title: "Programming"
+        url: /projects/programming/
+      - title: "Game Development"
+        url: /projects/game-dev/
+
+sidebar:
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+    children:
+      - title: "Programming"
+        url: /projects/programming/
+      - title: "Game Development"
+        url: /projects/game-dev/
+  - title: "Tech Digest"
+    url: /tech-digest/
+
+  # - title: "Case Studies"
+  # - title: "Books"
+  # - title: "Tech Reviews"
+  # - title: "Tools"
+
+
