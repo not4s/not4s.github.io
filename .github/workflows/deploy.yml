@@ -1,0 +1,64 @@
+name: Build and Deploy Jekyll Site
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      site-url: ${{ steps.deploy.outputs.site-url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Upload site to artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: _site
+          path: ./_site
+
+  report-build-status:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report build status
+        run: echo "Build completed for ${{ github.repository }} on branch ${{ github.ref_name }}"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download site artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: _site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          destination_dir: public  # Optional: customize if needed
+        id: deploy
+
+      - name: Output URL
+        run: echo "::set-output name=site-url::https://yourusername.github.io/your-repo/"
