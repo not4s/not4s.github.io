@@ -12,12 +12,12 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "My Little Bits & Bytes"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jay Chung"
@@ -116,7 +116,7 @@ author:
   name             : "Jay Chung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hello World"
-  location         : "Somewhere"
+  location         : "London, United Kingdom"
   email            :
   links:
     - label: "Email"
@@ -315,7 +315,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: default
     values:
       layout: single
       author_profile: true
@@ -323,3 +323,8 @@ defaults:
       comments: # true
       share: true
       related: true
+
+sidebar:
+  nav: sidebar
+  title: "Exploration"
+  sticky: true
