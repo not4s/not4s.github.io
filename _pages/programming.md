@@ -1,6 +1,6 @@
 ---
 title: "Tech Projects"
-layout: single
+layout: category
 permalink: /projects/programming/
 author_profile: true
 sidebar:

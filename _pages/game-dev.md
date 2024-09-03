@@ -1,6 +1,6 @@
 ---
 title: "Game Projects"
-layout: single
+layout: category
 permalink: /projects/game-dev/
 author_profile: true
 sidebar:
