@@ -122,7 +122,8 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
+  display: flex;                /* Use Flexbox */
+  justify-content: center;      /* Center horizontally */
   vertical-align: top;
   width: 36px;
   height: 36px;
@@ -134,8 +135,9 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    max-width: 200px;
+    border-radius: 0%;
+    
 
     @include breakpoint($large) {
       padding: 5px;
