@@ -7,8 +7,8 @@ sidebar:
   - title: "Projects"
     url: /projects/
     children:
-      - title: "Programming"
-        url: /projects/programming/
+      - title: "Tech Projects"
+        url: /projects/tech-projects/
       - title: "Game Development"
         url: /projects/game-dev/
   - title: "Tech Digest"

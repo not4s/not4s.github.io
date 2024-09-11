@@ -126,7 +126,8 @@
   justify-content: center;      /* Center horizontally */
   vertical-align: top;
   width: 36px;
-  height: 36px;
+  height: 72px;
+  padding-left: 10px;
 
   @include breakpoint($large) {
     display: block;
@@ -155,7 +156,7 @@
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding-inline: 0;
+    padding-inline: 10;
   }
 
   a {

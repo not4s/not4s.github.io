@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 sidebar:
   nav: sidebar
-  sticky: true
+  sticky: false
 
 # Site Settings
 locale                   : "en-US"
@@ -118,8 +118,11 @@ analytics:
 # Site Author
 author:
   name             : "Jay Chung"
-  avatar           : "/assets/images/france_trip.jpeg"
-  bio              : "Hello World"
+  avatar           : "/assets/images/tower_bridge.jpeg"
+  bio              : 
+    "
+      Welcome to my world, a space to record the chronicles of my projects and share my interests in tech.
+    "
   location         : "London, United Kingdom"
   email            : "jc2520@ic.ac.uk"
   links:

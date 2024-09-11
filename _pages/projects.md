@@ -1,10 +1,8 @@
 ---
 title: "Projects"
-layout: category
+layout: categories
 permalink: /projects/
 author_profile: true
 sidebar:
   nav: sidebar
 ---
-
-Hello World

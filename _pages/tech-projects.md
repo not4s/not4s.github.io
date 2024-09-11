@@ -1,10 +1,9 @@
 ---
 title: "Tech Projects"
 layout: category
-permalink: /projects/programming/
+permalink: /projects/tech-projects/
 author_profile: true
 sidebar:
   nav: sidebar
+taxonomy: Tech Projects
 ---
-
-Hello World
