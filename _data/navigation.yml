@@ -13,6 +13,13 @@ sidebar:
         url: /projects/game-dev/
   - title: "Tech Digest"
     url: /tech-digest/
+    children:
+      - title: "Insights"
+        url: "/tech-digest/insights"
+      - title: "C++"
+        url: "/tech-digest/cpp"
+      - title: "Rust"
+        url: "/tech-digest/rust"
 
   # - title: "Case Studies"
   # - title: "Books"

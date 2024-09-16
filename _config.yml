@@ -118,7 +118,7 @@ analytics:
 # Site Author
 author:
   name             : "Jay Chung"
-  avatar           : "/assets/images/tower_bridge.jpeg"
+  avatar           : "/assets/images/profile/tower_bridge.jpeg"
   bio              : 
     "
       Welcome to my world, a space to record the chronicles of my projects and share my interests in tech.
@@ -333,3 +333,18 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+  - scope:
+      path: ""
+    values:
+      layout: splash
+      title: false
+      # excerpt: "Hello World"
+      header:
+        overlay_image: "/assets/images/splash/3.jpg"
+        overlay_color: "#000"
+        overlay_filter: 0.5
+        # caption: "Welcome to My Website"
+        actions:
+          # - label: "About the Website"
+          #   url: "/about/"

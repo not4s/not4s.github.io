@@ -21,8 +21,12 @@ toc_label: "Contents"
 toc_icon: "compass"
 toc_sticky: true
 toc_levels: 1, 2, 3
+
+# header:
+#   show_excerpt: false
 ---
-<br>
+<!--  -->
+
 Introduction
 Visualising complex mathematics interactively in the browser? Need high-performance due to the heavy renderings, and traditional JavaScript wouldn't be enough.
 
