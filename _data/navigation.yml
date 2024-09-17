@@ -21,6 +21,11 @@ sidebar:
       - title: "Rust"
         url: "/tech-digest/rust"
 
+      - title: "System Design"
+        url: "/tech-digest/sys-design"
+      - title: "Case Study"
+        url: "/tech-digest/case-study"
+
   # - title: "Case Studies"
   # - title: "Books"
   # - title: "Tech Reviews"

@@ -333,7 +333,13 @@ defaults:
       comments: # true
       share: true
       related: true
-      
+
+  - scope:
+      path: ""
+      type: categories
+    values:
+      layout: "category"
+
   - scope:
       path: ""
     values:
@@ -341,7 +347,7 @@ defaults:
       title: false
       # excerpt: "Hello World"
       header:
-        overlay_image: "/assets/images/splash/3.jpg"
+        overlay_image: "/assets/images/splash/5.jpg"
         overlay_color: "#000"
         overlay_filter: 0.5
         # caption: "Welcome to My Website"

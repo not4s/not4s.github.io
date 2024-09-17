@@ -21,9 +21,6 @@ toc_label: "Contents"
 toc_icon: "compass"
 toc_sticky: true
 toc_levels: 1, 2, 3
-
-# header:
-#   show_excerpt: false
 ---
 <!--  -->
 
