@@ -24,38 +24,37 @@ toc_levels: 1, 2, 3
 <!--  -->
 
 <h2>Introduction to Coroutines</h2>
-What Are Coroutines?
-High-level overview of what coroutines are. They are a general control structure that allows suspending and resuming execution at certain points.
+What Are Coroutines?<br>
+High-level overview: Coroutines are a general control structure that allows suspending and resuming execution at certain points.
 
-Why Use Coroutines in C++?
+Why Use Coroutines in C++?<br>
+How C++20 introduced coroutines to make asynchronous programming easier and optimize tasks like lazy evaluation and concurrency.
 
-Discussion on how C++20 introduced coroutines make asynchronous programming easier and optimize tasks like lazy evaluation and concurrency.
-
-Comparison to Other Programming Constructs
-Briefly comparison of coroutines with other asynchronous constructs like threads, callbacks, or promises.
+Comparison to Other Programming Constructs<br>
+Brief comparison of coroutines with other asynchronous constructs like threads, callbacks, or promises.
 
 <h2>How Coroutines Work</h2>
-Suspend, Resume, and Complete
+Suspend, Resume, and Complete<br>
 Basic lifecycle of a coroutine: suspension points (co_await), resuming execution, and final completion (co_return).
 
-Coroutine States and Execution Flow
+Coroutine States and Execution Flow<br>
 Diagram showing the state transitions, from coroutine creation, suspension, to completion. Helps readers visualize how control flows within a coroutine.
 
-Differences Between Coroutines and Functions
+Differences Between Coroutines and Functions<br>
 Explaination on how coroutines differ from traditional functions by having multiple suspension points.
 
 <h2>Key Concepts and Syntax</h2>
 Core Keywords: co_await, co_return, co_yield
 
-Introduction of the core keywords for working with coroutines and what they signify:
-co_await for waiting on asynchronous results
-co_yield for yielding values
-co_return to return a value or signal completion
+Introduction of the core keywords for working with coroutines and what they signify:<br>
+co_await for waiting on asynchronous results<br>
+co_yield for yielding values<br>
+co_return to return a value or signal completion<br>
 
-Coroutine Handle and Promise Types
+Coroutine Handle and Promise Types<br>
 The role of the std::coroutine_handle and promise types in managing the coroutine lifecycle.
 
-Basic Code Example
+Basic Code Example<br>
 Simple code example showing a basic coroutine function.
 
 ```cpp
@@ -84,10 +83,10 @@ int main() {
 Explain each part step by step?
 
 <h2>Asynchronous Programming with Coroutines</h2>
-Using co_await for Asynchronous Tasks
+Using co_await for Asynchronous Tasks<br>
 Explaination on how co_await can be used for asynchronous operations (like I/O, network calls).
 
-Code Example with Async Operations
+Code Example with Async Operations<br>
 Example where a coroutine handles asynchronous tasks, using std::future or a similar async mechanism.
 
 ```cpp
@@ -111,35 +110,35 @@ int main() {
 Discussion on how coroutines can simplify asynchronous workflows compared to traditional approaches.
 
 <h2>Advanced Coroutine Concepts</h2>
-Coroutine Return Types: std::future, Generators, and More
+Coroutine Return Types: std::future, Generators, and More<br>
 Explaination on how coroutines can return different types depending on the use case (std::future, generators, etc.).
 
-Generators and co_yield
+Generators and co_yield<br>
 Dive into co_yield for generator-style coroutines, showing an example of yielding values lazily.
 
-Using Coroutines in Concurrency
+Using Coroutines in Concurrency<br>
 Discussion on how coroutines can be integrated with multi-threading and concurrency, providing an architecture diagram that explains how coroutines interact with threads.
 
 <h2>Performance Considerations</h2>
-Coroutine Overhead
+Coroutine Overhead<br>
 The overhead associated with coroutines and how they can be optimized.
 
-Memory Management and Coroutines
+Memory Management and Coroutines<br>
 How memory is managed in coroutines, including coroutine frames, stackless nature, and when they are deallocated.
 
 <h2>Use Cases and Best Practices</h2>
-Real-World Applications
+Real-World Applications<br>
 Highlight of scenarios where coroutines can be beneficial, such as game loops, networking, and GUI programming.
 
-Common Pitfalls and How to Avoid Them
+Common Pitfalls and How to Avoid Them<br>
 Common mistakes when using coroutines and best practices to avoid issues like deadlocks or unexpected behavior.
 
 <h2>Conclusion</h2>
-Recap of Key Points
+Recap of Key Points<br>
 Summary of the advantages and key concepts of coroutines in C++.
 
-Additional Resources?
-Provide links to further readings, documentation, or talks for more in-depth learning.
+Additional Resources?<br>
+Links to further readings, documentation, or talks (need research).
 
 <!-- Include architecture diagrams for asynchronous workflows and coroutine state transitions.
      Show how different parts of a coroutine interact (e.g., caller, callee, suspension points) through flow diagrams. -->
