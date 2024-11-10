@@ -1,0 +1,16 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign desired_categories = "Insights,Data Structure and Algorithms,System Design,Case Studies,Books,Podcasts" | split: "," %}
+{% assign filtered_categories = "" | split: "" %}
+
+{% for category in site.categories %}
+  {% if desired_categories contains category[0] %}
+    {% assign filtered_categories = filtered_categories | push: category %}
+  {% endif %}
+{% endfor %}
+
+{% include posts-taxonomy.html taxonomies=filtered_categories %}

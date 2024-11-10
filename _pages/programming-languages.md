@@ -1,6 +1,6 @@
 ---
 title: "Programming Languages"
-layout: categories
+layout: programming-languages-categories
 permalink: /programming-languages/
 author_profile: true
 sidebar:

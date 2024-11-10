@@ -1,6 +1,6 @@
 ---
 title: "Projects and Research"
-layout: categories
+layout: projects-and-research-categories
 permalink: /projects-and-research/
 author_profile: true
 sidebar:

@@ -1,0 +1,15 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign filtered_categories = "" | split: "" %}
+
+{% for category in site.categories %}
+  {% if category[0] == "Projects and Research" %}
+    {% assign filtered_categories = filtered_categories | push: category %}
+  {% endif %}
+{% endfor %}
+
+{% include posts-taxonomy.html taxonomies=filtered_categories %}

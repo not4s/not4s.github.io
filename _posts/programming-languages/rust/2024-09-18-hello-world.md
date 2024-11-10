@@ -1,6 +1,6 @@
 ---
-title: "[C++20] Overview of Coroutines"
-permalink: /programming-languages/cpp/coroutines/
+title: "Rust Hello World"
+permalink: /programming-languages/rust/hello-world/
 
 author_profile: true
 sidebar:
@@ -8,7 +8,7 @@ sidebar:
   sticky: false
 
 categories:
-  - C++
+  - Rust
 tags: 
   - C++
   - C++20

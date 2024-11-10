@@ -1,6 +1,6 @@
 ---
 title: "Tech Digest"
-layout: categories
+layout: tech-digest-categories
 permalink: /tech-digest/
 author_profile: true
 sidebar:

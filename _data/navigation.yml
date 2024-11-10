@@ -18,10 +18,10 @@ sidebar:
         url: "/tech-digest/sys-design"
       - title: "Case Studies"
         url: "/tech-digest/case-studies"
-      - title: "Book Reviews"
-        url: "/tech-digest/book"
-      - title: "Podcast Reviews"
-        url: "/tech-digest/podcast"
+      - title: "Books"
+        url: "/tech-digest/books"
+      - title: "Podcasts"
+        url: "/tech-digest/podcasts"
     
   - title: "Programming Languages"
     url: /programming-languages
