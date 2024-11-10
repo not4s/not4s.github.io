@@ -4,31 +4,33 @@ main:
     url: /about/
 
 sidebar:
-  - title: "Projects"
-    url: /projects/
-    children:
-      - title: "Tech Projects"
-        url: /projects/tech-projects/
-      - title: "Game Development"
-        url: /projects/game-dev/
+  - title: "Projects and Research"
+    url: /projects-and-research/
+
   - title: "Tech Digest"
     url: /tech-digest/
     children:
       - title: "Insights"
         url: "/tech-digest/insights"
-      - title: "C++"
-        url: "/tech-digest/cpp"
-      - title: "Rust"
-        url: "/tech-digest/rust"
-
+      - title: "Data Structures and Algorithms"
+        url: "/tech-digest/insights"
       - title: "System Design"
         url: "/tech-digest/sys-design"
       - title: "Case Studies"
         url: "/tech-digest/case-studies"
-
-  # - title: "Case Studies"
-  # - title: "Books"
-  # - title: "Tech Reviews"
-  # - title: "Tools"
-
-
+      - title: "Book Reviews"
+        url: "/tech-digest/book"
+      - title: "Podcast Reviews"
+        url: "/tech-digest/podcast"
+    
+  - title: "Programming Languages"
+    url: /programming-languages
+    children:
+      - title: "C++"
+        url: "/programming-languages/cpp"
+      - title: "Rust"
+        url: "/programming-languages/rust"
+      - title: "Java"
+        url: "/programming-languages/java"
+      - title: "Python"
+        url: "/programming-languages/python"

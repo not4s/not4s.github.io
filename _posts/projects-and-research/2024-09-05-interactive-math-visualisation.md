@@ -6,8 +6,8 @@ sidebar:
   nav: sidebar
   sticky: false
 
-categories: 
-  - Tech Projects
+category: 
+  - Projects and Research
 tags: 
   - Rust
   - Web Assembly
